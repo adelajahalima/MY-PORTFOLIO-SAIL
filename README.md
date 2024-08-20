@@ -74,7 +74,8 @@ To run this project locally, follow these steps:
 
 ## Usage
 Development: After running the development server, open your browser and navigate to http://localhost:3000 to view the website.
-Production: The site is already deployed on Vercel. You can visit it at ```[vercel] (https://your-vercel-site-url).
+
+Production: The site is already deployed on Vercel. You can visit it at [vercel] (https://your-vercel-site-url).
 
 ## Contributing
 If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are warmly welcome.
@@ -83,4 +84,4 @@ If you'd like to contribute to this project, please fork the repository and use 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Contact
-Feel free to reach out if you have any questions or suggestions! You can send me an email [here](enioladelajah@gmail.com).
+Feel free to reach out if you have any questions or suggestions! You can send me an email at [enioladelajah@gmail.com](mailto:enioladelajah@gmail.com).
