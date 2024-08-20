@@ -11,7 +11,6 @@ This repository contains the code for my personal portfolio website, showcasing 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -79,9 +78,6 @@ Production: The site is already deployed on Vercel. You can visit it at [vercel]
 
 ## Contributing
 If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are warmly welcome.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Contact
 Feel free to reach out if you have any questions or suggestions! You can send me an email at [enioladelajah@gmail.com](mailto:enioladelajah@gmail.com).
