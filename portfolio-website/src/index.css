@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  @apply overflow-x-hidden;
+}
+/* HEADER NAVBAR STYLING */
+nav ul li a {
+  position: relative;
+  transition: color .4s;
+  /* color: grey; */
+  background: none;
+}
+nav ul li a::after{
+  position: absolute;
+  content: '';
+  width: 0;
+  height:2px;
+  background-color: blueviolet;
+  left: 0;
+  bottom: -.5rem;
+  transition: width .3s;
+}
+nav ul li a:hover{
+  color: transparent; /* Hide the default text color */
+  background: linear-gradient(to bottom, #ec4899, #a855f7, #3b82f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+nav li a:hover::after {
+  width: 30%;
+}
+
+.animation {
+  opacity: 0;
+  transform: translateX(30px);
+  animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup {
+  100%{
+    opacity: 1;
+    transform: translateX(0px)
+  }
+}
+
+.gradient-border {
+  position: relative;
+  padding: 5px;
+  border-radius: 50%;
+  /* background: linear-gradient(to right, #ec4899, #a855f7, #3b82f6); */
+  background: linear-gradient(to bottom, #ec4899, #a855f7, #3b82f6);
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background: white;
+  z-index: -1;
+}
+
+
+
