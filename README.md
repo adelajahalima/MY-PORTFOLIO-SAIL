@@ -1,7 +1,7 @@
 # MY-PORTFOLIO-SAIL
 # Portfolio Website
 
-This repository contains the code for my personal portfolio website, showcasing the various projects I worked on during my 3 months web development bootcamp at SAIL, also highlighting my skills and experience in web development. Built with HTML, CSS, JavaScript, React and so on, hosted on Vercel.
+This repository contains the code for my personal portfolio website, showcasing the various projects I worked on during my 3 months web development bootcamp at SAIL, also highlighting my skills and experience in web development. Built with HTML, Tailwind CSS, JavaScript, and React, hosted on Vercel.
 
 ## Table of Contents
 
