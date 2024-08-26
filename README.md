@@ -74,7 +74,7 @@ To run this project locally, follow these steps:
 ## Usage
 Development: After running the development server, open your browser and navigate to http://localhost:3000 to view the website.
 
-Production: The site is already deployed on Vercel. You can visit it at [vercel] (https://your-vercel-site-url).
+Production: The site is already deployed on Vercel. You can visit it at [vercel] (https://my-portfolio-sail-xugc.vercel.app/).
 
 ## Contributing
 If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are warmly welcome.
