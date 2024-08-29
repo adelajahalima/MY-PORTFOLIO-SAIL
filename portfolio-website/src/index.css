@@ -19,11 +19,15 @@ body {
 /* HEADER NAVBAR STYLING */
 nav ul li a {
   position: relative;
-  transition: color .4s;
-  /* color: grey; */
-  background: none;
+  
 }
-nav ul li a::after{
+nav ul li a, footer a {
+  background: none;
+  transition: transform 0.4s ease-in, background 0.4s ease-in, color 0.4s ease-in; 
+  display: inline-block; /* Ensure the scale transformation works correctly */
+}
+
+/* nav ul li a::after{
   position: absolute;
   content: '';
   width: 0;
@@ -32,27 +36,59 @@ nav ul li a::after{
   left: 0;
   bottom: -.5rem;
   transition: width .3s;
-}
-nav ul li a:hover{
-  color: transparent; /* Hide the default text color */
+} */
+nav ul li a:hover, 
+nav ul li Link:hover, 
+footer Link:hover, 
+footer a:hover,
+footer p span,
+.dark nav ul li a:hover,
+.dark nav ul li Link:hover,
+.dark footer Link:hover,
+.dark footer a:hover{
+  color: transparent; /*Hide the default text color */
   background: linear-gradient(to bottom, #ec4899, #a855f7, #3b82f6);
   -webkit-background-clip: text;
   background-clip: text;
+  transform: scale(1.1); /* Scale the link slightly on hover */
 }
-nav li a:hover::after {
+
+
+footer .group:hover svg {
+  background: linear-gradient(to bottom, #ec4899, #a855f7, #3b82f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* color: transparent; */
+}
+
+/* nav li a:hover::after {
   width: 30%;
-}
+} */
 
 .animation {
   opacity: 0;
-  transform: translateX(30px);
+  transform: translateY(30px);
   animation: moveup 0.5s linear forwards;
 }
 @keyframes moveup {
   100%{
     opacity: 1;
-    transform: translateX(0px)
+    transform: translateY(0px)
   }
+}
+/* HERO SECTION STYLING */
+
+.section-hero .h2_1 {
+  animation-delay: 0.5s;
+}
+.section-hero .h2_2 {
+  animation-delay: 1s;
+}
+.section-hero p {
+  animation-delay: 1.5s;
+}
+.section-hero .hero-img {
+  animation-delay: 2s;
 }
 
 .gradient-border {
