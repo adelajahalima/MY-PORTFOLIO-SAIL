@@ -3,7 +3,7 @@ import halima from '../../assets/images/me.jpg'
 
 const Hero = () => {
   return (
-    <section className="section-hero bg-white dark:bg-gray-900 pt-44 pb-16 px-20 sm:px-24 lg:px-28">
+    <section className="section-hero bg-white dark:bg-gray-900 pt-44 pb-16 px-4 ">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
         <div className="mb-8 md:mb-0 md:mr-8">
           <h1 className=" animation text-5xl md:text-7xl font-bold mb-2">
@@ -24,9 +24,9 @@ const Hero = () => {
           {/* <div className="absolute inset-0 bg-gradient-to-br from-pink-500 via-purple-500 to-blue-500 rounded-full animate-spin-slow"></div> */}
           
             <img
-                src={halima}
-                alt="Me"
-                className="gradient-border absolute -inset-y-10 object-cover mt-20 sm:mt-8 md:mt-0 lg:mt-0"
+              src={halima}
+              alt="Me"
+              className="gradient-border absolute -inset-y-10 object-cover mt-20 sm:mt-8 md:mt-0 lg:mt-0"
             />
         </div>
       </div>
